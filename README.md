@@ -39,7 +39,16 @@ python app/main.py
 기본 주소인 <http://127.0.0.1:8000/>에 접속하면 다음 HTML을 반환합니다.
 
 ```html
-Hello, <a href="https://scnuoss.net/">https://scnuoss.net/</a>
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <title>순천대학교 OSS 해커톤</title>
+</head>
+<body>
+    Hello, <a href="https://scnuoss.net/">https://scnuoss.net/</a>
+</body>
+</html>
 ```
 
 ## 배포 설정
